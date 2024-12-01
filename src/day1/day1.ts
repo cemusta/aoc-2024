@@ -1,3 +1,5 @@
+import * as log from "@std/log";
+
 function parseInput(input: string): { L: number[]; R: number[] } {
   const data = Deno.readTextFileSync(input);
 
@@ -24,7 +26,7 @@ export function part1(input: string): number {
     distance += Math.abs(L[i] - R[i]);
   }
 
-  console.log("distance: ", distance);
+  log.info(`distance: ${distance}`);
 
   return distance; // Placeholder return value
 }
@@ -38,10 +40,12 @@ export function part2(input: string): number {
     similarity += Li * R.filter((i) => i === Li).length;
   }
 
-  console.log("similarity: ", similarity);
+  log.info(`similarity: ${similarity}`);
 
   return similarity; // Placeholder return value
 }
 
-part1("./src/day1/input1.txt");
-part2("./src/day1/input1.txt");
+if (import.meta.main) {
+  part1("./src/day1/input1.txt");
+  part2("./src/day1/input1.txt");
+}
