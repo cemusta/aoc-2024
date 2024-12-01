@@ -1,5 +1,14 @@
 import { expect } from "jsr:@std/expect";
 import { part1, part2 } from "./day1.ts";
+import * as log from "@std/log";
+
+log.setup({
+  loggers: {
+    default: {
+      level: undefined,
+    },
+  },
+});
 
 Deno.test("part1 should find correct result", () => {
   const result = part1("./src/day1/sample1.txt");
