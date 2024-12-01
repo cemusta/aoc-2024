@@ -1,6 +1,6 @@
 # Advent of Code 2024
 
-[![GitHub actions](https://github.com/cemusta/aoc-2024/workflows/Node.js%20CI/badge.svg)](https://github.com/cemusta/aoc-2024/actions)
+[![Github actions](https://github.com/cemusta/aoc-2024/actions/workflows/deno.yml/badge.svg)](https://github.com/cemusta/aoc-2024/actions/workflows/deno.yml)
 [![CodeFactor](https://www.codefactor.io/repository/github/cemusta/aoc-2024/badge)](https://www.codefactor.io/repository/github/cemusta/aoc-2024)
 [![codecov](https://codecov.io/gh/cemusta/aoc-2024/branch/main/graph/badge.svg?token=V84jm3NSEZ)](https://codecov.io/gh/cemusta/aoc-2024)
 
