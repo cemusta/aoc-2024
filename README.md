@@ -13,7 +13,7 @@ For information about Advent of Code check here: <https://adventofcode.com/2024/
 
 2 out of 50 stars.
 
-![progress bar 4 percent](https://progress-bar.dev/4)
+![progress bar 4 percent](https://progress-bar.xyz/4/?progress_color=33ff33)
 
 ## Running locally
 
