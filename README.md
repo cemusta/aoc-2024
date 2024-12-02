@@ -27,11 +27,11 @@ deno i
 You can run solutions with `deno` like this
 
 ```bash
-deno ./src/day1.solve.ts -R
+deno task day1
 ```
 
-You can start tests with
+You can start tests and coverage with
 
 ```bash
-deno test -R
+deno task coverage
 ```
