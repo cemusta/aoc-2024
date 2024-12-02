@@ -20,7 +20,6 @@ For information about Advent of Code check here: <https://adventofcode.com/2024/
 this repo was build and tested with Deno 2.1.2, start by installing packages with
 
 ```bash
-# install packages
 deno i
 ```
 

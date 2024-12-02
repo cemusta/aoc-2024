@@ -10,12 +10,12 @@ log.setup({
   },
 });
 
-Deno.test("part1 should find correct result", () => {
+Deno.test("Day1 - part1 should find correct result", () => {
   const result = part1("./src/day1/sample1.txt");
   expect(result).toBe(11);
 });
 
-Deno.test("part2 should find correct result", () => {
+Deno.test("Day1 - part2 should find correct result", () => {
   const result = part2("./src/day1/sample1.txt");
   expect(result).toBe(31);
 });
