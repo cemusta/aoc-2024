@@ -37,7 +37,28 @@ export function part1(input: string): number {
   return sum ?? 0;
 }
 
+export function part2(input: string): number {
+  const commandMemory = parseInput(input);
+
+  //use regex mul\(\d{1,3},\d{1,3}\)
+  const regex = /mul\(\d{1,3},\d{1,3}\)/g;
+
+  const matches = commandMemory.match(regex);
+
+  const ops = matches?.map((match) => parseMemory(match));
+
+  log.debug(ops);
+
+  const sum = ops?.reduce((acc, op) => {
+    return acc + mul(op.a, op.b);
+  }, 0);
+
+  log.info(`Sum: ${sum}`);
+
+  return sum ?? 0;
+}
+
 if (import.meta.main) {
-  part1("./src/day3/input3.txt");
-  // part2("./src/day3/sample3.txt");
+  // part1("./src/day3/input.txt");
+  part2("./src/day3/sample1.txt");
 }

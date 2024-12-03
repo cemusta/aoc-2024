@@ -11,7 +11,7 @@ log.setup({
 });
 
 Deno.test("Day3 - part1 should find correct result", () => {
-  const result = part1("./src/day3/sample3.txt");
+  const result = part1("./src/day3/sample1.txt");
   expect(result).toBe(161);
 });
 
