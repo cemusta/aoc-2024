@@ -11,11 +11,11 @@ log.setup({
 });
 
 Deno.test("Day2 - part1 should find correct result", () => {
-  const result = part1("./src/day2/sample2.txt");
+  const result = part1("./src/day2/sample1.txt");
   expect(result).toBe(2);
 });
 
 Deno.test("Day2 - part2 should find correct result", () => {
-  const result = part2("./src/day2/sample2.txt");
+  const result = part2("./src/day2/sample1.txt");
   expect(result).toBe(4);
 });

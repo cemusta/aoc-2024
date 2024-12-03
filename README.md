@@ -11,9 +11,9 @@ For information about Advent of Code check here: <https://adventofcode.com/2024/
 
 ## Progress
 
-4 out of 50 stars.
+6 out of 50 stars.
 
-![progress bar 8 percent](https://progress-bar.xyz/8/?progress_color=33ff33)
+![progress bar 12 percent](https://progress-bar.xyz/12/?progress_color=33ff33)
 
 ## Running locally
 
@@ -34,3 +34,11 @@ You can start tests and coverage with
 ```bash
 deno task coverage
 ```
+
+## Previous years
+
+- [2023](https://github.com/cemusta/aoc-2023)
+- [2022](https://github.com/cemusta/aoc-2022)
+- [2021](https://github.com/cemusta/aoc-2021)
+- [2020](https://github.com/cemusta/aoc-2020)
+- [2019](https://github.com/cemusta/aoc-2019)

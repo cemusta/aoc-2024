@@ -46,6 +46,6 @@ export function part2(input: string): number {
 }
 
 if (import.meta.main) {
-  part1("./src/day1/input1.txt");
-  part2("./src/day1/input1.txt");
+  part1("./src/day1/input.txt");
+  part2("./src/day1/input.txt");
 }
