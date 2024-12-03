@@ -34,3 +34,11 @@ You can start tests and coverage with
 ```bash
 deno task coverage
 ```
+
+## Previous years
+
+- [2023](https://github.com/cemusta/aoc-2023)
+- [2022](https://github.com/cemusta/aoc-2022)
+- [2021](https://github.com/cemusta/aoc-2021)
+- [2020](https://github.com/cemusta/aoc-2020)
+- [2019](https://github.com/cemusta/aoc-2019)
