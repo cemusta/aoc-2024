@@ -4,6 +4,7 @@
     "day2": "deno run -R ./src/day2/day2.ts",
     "day3": "deno run -R ./src/day3/day3.ts",
     "day4": "deno run -R ./src/day4/day4.ts",
+    "day5": "deno run -R ./src/day5/day5.ts",
     "coverage": "deno test --coverage=coverage -R  --junit-path=./coverage/junit.xml && deno coverage ./coverage --lcov > coverage/coverage.lcov"
   },
   "imports": {

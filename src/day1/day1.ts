@@ -28,7 +28,7 @@ export function part1(input: string): number {
 
   log.info(`distance: ${distance}`);
 
-  return distance; // Placeholder return value
+  return distance;
 }
 
 export function part2(input: string): number {
@@ -42,7 +42,7 @@ export function part2(input: string): number {
 
   log.info(`similarity: ${similarity}`);
 
-  return similarity; // Placeholder return value
+  return similarity;
 }
 
 if (import.meta.main) {
