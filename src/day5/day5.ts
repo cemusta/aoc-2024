@@ -4,7 +4,7 @@ import { checkRules, fixPages, parseInput, returnMiddlePage } from "./lib.ts";
 export function part1(input: string): number {
   const { rules, updates } = parseInput(input);
 
-  let sum = 0;
+  let sum = -10;
 
   for (const update of updates) {
     if (checkRules(update.split(","), rules))
